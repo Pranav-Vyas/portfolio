@@ -1,7 +1,12 @@
+import { Banner, Overview, WorkExperience } from "./components";
+import styles from "./page.module.scss";
+
 export default function Home() {
   return (
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, dignissimos. In hic doloribus suscipit odio sunt voluptatem laboriosam temporibus voluptate!
+    <div className={styles.wrapper}>
+      <Banner/>
+      <Overview/>
+      <WorkExperience/>
     </div>
   )
 }
