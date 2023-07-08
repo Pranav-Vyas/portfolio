@@ -1,0 +1,13 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 4rem;
+  color: var(--color-yellow);
+  font-weight: 500;
+  margin-bottom: 3rem;
+}

@@ -1,4 +1,4 @@
-import { Banner, Overview, WorkExperience } from "./components";
+import { Banner, Education, Overview } from "./components";
 import styles from "./page.module.scss";
 
 export default function Home() {
@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.wrapper}>
       <Banner/>
       <Overview/>
-      <WorkExperience/>
+      <Education/>
     </div>
   )
 }
