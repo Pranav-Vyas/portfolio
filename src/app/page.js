@@ -1,4 +1,4 @@
-import { Banner, Blogs, Contact, Education, Overview, Projects, Skills, WorkExperience } from "./components";
+import { Banner, Blogs, Contact, Copyright, Education, Overview, Projects, Skills, WorkExperience } from "./components";
 import styles from "./page.module.scss";
 
 export default function Home() {
@@ -12,6 +12,7 @@ export default function Home() {
       <Skills/>
       <Blogs/>
       <Contact/>
+      <Copyright/>
     </div>
   )
 }

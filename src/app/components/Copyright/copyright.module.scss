@@ -1,0 +1,13 @@
+.wrapper {
+  margin-top: 3rem;
+  padding: 3rem 0;
+  background-color: var(--color-grey-dark);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &__text {
+    color: var(--color-grey-light);
+    font-size: 1.5rem;
+  }
+}
