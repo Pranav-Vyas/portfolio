@@ -5,12 +5,18 @@
   padding: 8rem 10rem;
 }
 
+.grid {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
 .heading {
   font-size: 4rem;
-  font-weight: 500;
-  margin-bottom: 3rem;
   background-image: linear-gradient(to right, var(--color-yellow), var(--color-red));
   color: transparent;
   -webkit-background-clip: text;
+  font-weight: 500;
+  margin-bottom: 3rem;
   text-transform: uppercase;
 }

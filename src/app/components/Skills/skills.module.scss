@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 6rem 10rem;
+  padding: 8rem 10rem;
 }
 
 .heading {
@@ -25,25 +25,36 @@
   row-gap: 2rem;
 }
 
-.skill {
-  display: flex;
-  flex-direction: row;
-  border-radius: 4px;
+.bgYellow {
   background-color: var(--color-yellow);
-  padding: 1rem 3rem;
-  align-items: center;
-  &:not(:last-child) {
-    margin-right: 2rem;
-  }
 }
-
-.logo {
-  height: 4rem;
-  width: 4rem;
-  margin-right: 1.5rem;
+.bgRed {
+  background-color: var(--color-red);
 }
-
-.name {
-  font-size: 1.5rem;
-  font-weight: 600;
+.bgPink1 {
+  background-color: var(--color-pink1);
+}
+.textWhite {
+  color: var(--color-white);
+}
+.bgIndigo {
+  background-color: var(--color-indigo);
+}
+.bgCream {
+  background-color: var(--color-cream);
+}
+.bgPeach {
+  background-color: var(--color-peach);
+}
+.bgPurple {
+  background-color: var(--color-purple);
+}
+.bgGreen1 {
+  background-color: var(--color-green1);
+}
+.bgGreen3 {
+  background-color: var(--color-green3);
+}
+.bgOrange {
+  background-color: var(--color-orange);
 }

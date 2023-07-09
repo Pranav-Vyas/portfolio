@@ -7,10 +7,30 @@
 
 .heading {
   font-size: 4rem;
-  font-weight: 500;
-  margin-bottom: 3rem;
   background-image: linear-gradient(to right, var(--color-yellow), var(--color-red));
   color: transparent;
   -webkit-background-clip: text;
+  font-weight: 500;
+  margin-bottom: 3rem;
   text-transform: uppercase;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.illustration {
+  flex: 1;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
 }
