@@ -62,8 +62,8 @@ function Banner() {
           <h1 className={clsx(styles.headingPrimaryWhite2, styles.greet1)}>Hello</h1>
           <h1 className={clsx(styles.headingPrimaryWhite2, styles.greet2)}>नमस्कार</h1>
           <h1 className={clsx(styles.headingPrimaryWhite2, styles.greet3)}>ನಮಸ್ಕಾರ</h1>
-          {/* <h1 className={clsx(styles.headingPrimaryWhite2, styles.greet4)}>হ্যালো</h1>
-          <h1 className={clsx(styles.headingPrimaryWhite2, styles.greet5)}>こんにちは</h1> */}
+          <h1 className={clsx(styles.headingPrimaryWhite2, styles.greet4)}>হ্যালো</h1>
+          <h1 className={clsx(styles.headingPrimaryWhite2, styles.greet5)}>こんにちは</h1>
         </div>
         <h1 className={styles.headingPrimaryYellow}>I am Pranav</h1>
       </div>

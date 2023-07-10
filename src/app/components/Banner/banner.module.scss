@@ -85,20 +85,6 @@
   width: 100%;
 }
 
-// .headingPrimaryWhite2 {
-//   position: absolute;
-//   text-align: center;
-//   top: 0;
-//   width: 100%;
-//   font-size: 4.5rem;
-//   // line-height: 1;
-//   color: var(--color-white);
-//   font-weight: 300;
-//   animation-name: anime;
-//   animation-duration: 4s;
-//   animation-iteration-count: infinite;
-// }
-
 .headingPrimaryWhite2 {
   font-size: 4.5rem;
   font-weight: 400;
@@ -111,24 +97,39 @@
 
 .greet1 {
   animation-name: greet1Anime;
-  animation-duration: 3.5s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 .greet2 {
   animation-name: greet2Anime;
-  animation-duration: 3.5s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
+  color: var(--color-pink2);
 }
 .greet3 {
   animation-name: greet3Anime;
-  animation-duration: 3.5s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
+  color: var(--color-purple2);
+}
+.greet4 {
+  animation-name: greet4Anime;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  color: var(--color-peach);
+}
+.greet5 {
+  animation-name: greet5Anime;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  color: var(--color-indigo);
 }
 
 .headingPrimaryYellow {
   font-size: 4.5rem;
   color: var(--color-yellow);
   font-weight: 600;
+  letter-spacing: .2rem;
 }
 
 @keyframes greet1Anime {
@@ -136,11 +137,11 @@
     opacity: 0;
   }
 
-  16% {
+  10% {
     opacity: 1;
   }
 
-  33% {
+  20% {
     opacity: 0;
   }
 
@@ -155,15 +156,15 @@
     opacity: 0;
     visibility: hidden;
   }
-  33% {
+  20% {
     opacity: 0;
     visibility: visible;
   }
-  49% {
+  30% {
     opacity: 1;
   }
 
-  63% {
+  40% {
     opacity: 0;
   }
 
@@ -179,12 +180,58 @@
     visibility: hidden;
   }
 
-  63% {
+  40% {
+    visibility: visible;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes greet4Anime {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  60% {
     opacity: 0;
     visibility: visible;
   }
 
-  84% {
+  70% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes greet5Anime {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  80% {
+    opacity: 0;
+    visibility: visible;
+  }
+
+  90% {
     opacity: 1;
   }
 
