@@ -69,10 +69,126 @@
   color: var(--color-white);
   margin-bottom: 2rem;
   font-weight: 300;
+  animation-name: anime;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+
+.greeting {
+  position: relative;
+  height: 4.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+// .headingPrimaryWhite2 {
+//   position: absolute;
+//   text-align: center;
+//   top: 0;
+//   width: 100%;
+//   font-size: 4.5rem;
+//   // line-height: 1;
+//   color: var(--color-white);
+//   font-weight: 300;
+//   animation-name: anime;
+//   animation-duration: 4s;
+//   animation-iteration-count: infinite;
+// }
+
+.headingPrimaryWhite2 {
+  font-size: 4.5rem;
+  font-weight: 400;
+  color: var(--color-white);
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.greet1 {
+  animation-name: greet1Anime;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+.greet2 {
+  animation-name: greet2Anime;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+.greet3 {
+  animation-name: greet3Anime;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
 }
 
 .headingPrimaryYellow {
   font-size: 4.5rem;
   color: var(--color-yellow);
   font-weight: 600;
+}
+
+@keyframes greet1Anime {
+  0% {
+    opacity: 0;
+  }
+
+  16% {
+    opacity: 1;
+  }
+
+  33% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}
+
+@keyframes greet2Anime {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  33% {
+    opacity: 0;
+    visibility: visible;
+  }
+  49% {
+    opacity: 1;
+  }
+
+  63% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+}
+
+@keyframes greet3Anime {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  63% {
+    opacity: 0;
+    visibility: visible;
+  }
+
+  84% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }

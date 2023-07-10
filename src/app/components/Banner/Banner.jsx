@@ -7,6 +7,7 @@ import HashnodeIcon from "../../../../public/icons/hashnode.svg";
 import EnvelopeIcon from "../../../../public/icons/envelope-regular.svg";
 import Image from "next/image";
 import Link from "next/link";
+import clsx from "clsx";
 
 const cedarvilleCursive = Cedarville_Cursive({
   weight: "400",
@@ -18,7 +19,6 @@ function Banner() {
     <section className={styles.wrapper}>
       <div className={styles.background}></div>
       <header className={styles.header}>
-        <h3 className={styles.name}>Pranav Vyas</h3>
         <nav className={styles.navigation}>
           <Link
             className={styles.link}
@@ -58,17 +58,14 @@ function Banner() {
         </nav>
       </header>
       <div className={styles.centerTextBox}>
-        {/* <div className={styles.greeting}>
-          <ul className={styles.greeting__list}>
-            <li className={styles.greeting__list__item}>Hello</li>
-            <li className={styles.greeting__list__item}>नमस्कार</li>
-            <li className={styles.greeting__list__item}>ನಮಸ್ಕಾರ</li>
-            <li className={styles.greeting__list__item}>হ্যালো</li>
-            <li className={styles.greeting__list__item}>こんにちは</li>
-          </ul>
-        </div> */}
-          <h1 className={styles.headingPrimaryWhite}>Hello, I&apos;m Pranav</h1>
-        <h1 className={styles.headingPrimaryYellow}>A Software Engineer</h1>
+        <div className={styles.greeting}>
+          <h1 className={clsx(styles.headingPrimaryWhite2, styles.greet1)}>Hello</h1>
+          <h1 className={clsx(styles.headingPrimaryWhite2, styles.greet2)}>नमस्कार</h1>
+          <h1 className={clsx(styles.headingPrimaryWhite2, styles.greet3)}>ನಮಸ್ಕಾರ</h1>
+          {/* <h1 className={clsx(styles.headingPrimaryWhite2, styles.greet4)}>হ্যালো</h1>
+          <h1 className={clsx(styles.headingPrimaryWhite2, styles.greet5)}>こんにちは</h1> */}
+        </div>
+        <h1 className={styles.headingPrimaryYellow}>I am Pranav</h1>
       </div>
     </section>
   );
