@@ -26,6 +26,23 @@
   text-align: center;
 }
 
+.button {
+  text-decoration: none;
+  padding: 1rem;
+  color: var(--color-orange);
+  border: 2px solid var(--color-orange);
+  border-radius: 4px;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: all .2s;
+
+  &:hover {
+    box-shadow: 0 0.2rem .8rem var(--color-orange);
+    transform: scale(1.1);
+  }
+}
+
 .imageWrapper {
   flex: 1;
   display: flex;
