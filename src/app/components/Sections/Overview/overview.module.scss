@@ -2,9 +2,14 @@
 
 .wrapper {
   display: flex;
-  height: 100vh;
+  // height: 100vh;
+  min-height: 100vh;
   max-width: 1440px;
   margin: 0 auto;
+
+  @include respond(tab-land) {
+    flex-direction: column;
+  } 
 }
 
 .textWrapper {
@@ -60,8 +65,14 @@
   border-radius: 50%;
   overflow: hidden;
   border: .8rem solid var(--color-yellow);
+
+  @include respond(tab-land) {
+    width: auto;
+    margin-bottom: 10rem;
+  }
 }
 
 .profileImage {
   height: 100%;
+  width: 100%;
 }

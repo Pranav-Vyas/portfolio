@@ -5,6 +5,15 @@ import Link from "next/link";
 function Overview() {
   return (
     <section className={styles.wrapper}>
+      <div className={styles.imageWrapper}>
+        <figure className={styles.profileShape}>
+          <img
+            className={styles.profileImage}
+            src="/images/Profile-img-transparent.png"
+            alt="Profile Pic"
+          />
+        </figure>
+      </div>
       <div className={styles.textWrapper}>
         <h1 className={styles.headingPrimaryWhite}>About Me</h1>
         <h1 className={styles.headingPrimaryYellow}>
@@ -20,15 +29,6 @@ function Overview() {
         >
           Resume
         </Link>
-      </div>
-      <div className={styles.imageWrapper}>
-        <figure className={styles.profileShape}>
-          <img
-            className={styles.profileImage}
-            src="/images/Profile-img-transparent.png"
-            alt="Profile Pic"
-          />
-        </figure>
       </div>
     </section>
   );
