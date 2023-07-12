@@ -29,6 +29,10 @@
   top: 0;
   right: 0;
   left: 0;
+
+  @include respond(phone) {
+    padding: 3rem;
+  }
 }
 
 .name {
