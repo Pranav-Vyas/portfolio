@@ -12,7 +12,7 @@ import { SectionLayout } from "../..";
 
 function Contact() {
   return (
-    <SectionLayout heading={"Contacts"}>
+    <SectionLayout heading={"Contacts"} classes={[styles.wrapper]}>
       <div className={styles.row}>
         <div className={styles.contact}>
           <div className={styles.socialMedia}>

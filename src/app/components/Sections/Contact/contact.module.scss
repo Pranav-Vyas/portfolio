@@ -1,3 +1,7 @@
+.wrapper {
+  position: relative;
+}
+
 .row {
   display: flex;
   width: 100%;
@@ -30,6 +34,7 @@
 
     &:hover {
       cursor: pointer;
+      transform: translateX(1rem);
     }
   }
 
@@ -85,9 +90,13 @@
   padding: 0 3rem;
   align-items: flex-start;
   justify-content: flex-end;
+  position: absolute;
+  top: 9rem;
+  right: 0;
 }
 
 .image {
   width: 75%;
   height: auto;
+  opacity: .18;
 }

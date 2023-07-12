@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from "./sectionLayout.module.scss";
 import { SectionHeading } from '../..';
+import clsx from 'clsx';
 
-function SectionLayout({heading,children}) {
+function SectionLayout({heading, classes = [], children}) {
   return (
-    <section className={styles.wrapper}>
+    <section className={clsx(styles.wrapper, ...classes)}>
       {heading && <SectionHeading text={heading}/>}
       {children}
     </section>
