@@ -4,7 +4,7 @@ import clsx from "clsx";
 import { education } from "@/helpers/education";
 import { EducationCard } from "..";
 
-function Timeline() {
+function TimelineEducation() {
   return (
     <div className={styles.timeline}>
       {education.map((edu, i) => {
@@ -18,4 +18,4 @@ function Timeline() {
   );
 }
 
-export default Timeline;
+export default TimelineEducation;

@@ -1,10 +1,10 @@
 import React from 'react'
-import {  SectionLayout, TimelineAlternate } from '../..';
+import {  SectionLayout, TimelineEducation } from '../..';
 
 function Education() {
   return (
     <SectionLayout heading="Education">
-      <TimelineAlternate/>
+      <TimelineEducation/>
     </SectionLayout>
   )
 }

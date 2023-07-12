@@ -3,9 +3,10 @@
 .wrapper {
   display: flex;
   // height: 100vh;
-  min-height: 100vh;
+  // min-height: 100vh;
   max-width: 1440px;
   margin: 0 auto;
+  padding: 8% 0;
 
   @include respond(tab-land) {
     flex-direction: column;
@@ -67,8 +68,16 @@
   border: .8rem solid var(--color-yellow);
 
   @include respond(tab-land) {
-    width: auto;
+    width: 45%;
     margin-bottom: 10rem;
+  }
+  @include respond(tab-port) {
+    width: 35%;
+    margin-bottom: 8rem;
+  }
+  @include respond(phone) {
+    width: 65%;
+    margin-bottom: 6rem;
   }
 }
 

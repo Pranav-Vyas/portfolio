@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styles from "./timelineRight.module.scss";
 import { WorkCard } from '..';
 import clsx from 'clsx';

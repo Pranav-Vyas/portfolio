@@ -1,3 +1,5 @@
+@import "../../../styles/abstracts/mixins";
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -5,4 +7,11 @@
   padding: 8rem 10rem;
   max-width: 1440px;
   margin: 0 auto;
+
+  @include respond(tab-port) {
+    padding: 6rem 6rem;
+  }
+  @include respond(phone) {
+    padding: 4rem 2rem;
+  }
 }
