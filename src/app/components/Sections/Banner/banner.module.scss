@@ -15,6 +15,10 @@
   height: 100%;
   filter: blur(3px) brightness(0.2);
   clip-path: circle(165vh at 50% -73vh);
+  
+  @include respond(phone) {
+    clip-path: circle(155vh at 50% -73vh);
+  }
 }
 
 .header {
