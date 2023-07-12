@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./projects.module.scss";
-import ProjectCard from "../Cards/ProjectCard/ProjectCard";
-import TwitterImage from "../../../../public/images/twitter-cover.jpg";
-import BloodDonationImage from "../../../../public/images/blood-donation.jpg";
-import PortfolioImage from "../../../../public/images/portfolio-cover.jpg";
+import ProjectCard from "../../Cards/ProjectCard/ProjectCard";
+import TwitterImage from "../../../../../public/images/twitter-cover.jpg";
+import BloodDonationImage from "../../../../../public/images/blood-donation.jpg";
+import PortfolioImage from "../../../../../public/images/portfolio-cover.jpg";
+import { SectionLayout } from "../..";
 
 function Projects() {
   return (
-    <section className={styles.wrapper}>
-      <h1 className={styles.heading}>Projects</h1>
+    <SectionLayout heading={"Projects"}>
       <div className={styles.grid}>
         <ProjectCard
           image={TwitterImage}
@@ -32,7 +32,7 @@ function Projects() {
           url={"https://github.com/pranav-Vyas/portfolio"}
         />
       </div>
-    </section>
+    </SectionLayout>
   );
 }
 

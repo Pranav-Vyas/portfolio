@@ -1,10 +1,9 @@
 import React from "react";
 import styles from "./banner.module.scss";
 import { Cedarville_Cursive } from "next/font/google";
-import LinkedinIcon from "../../../../public/icons/linkedin.svg";
-import GithubIcon from "../../../../public/icons/github.svg";
-import HashnodeIcon from "../../../../public/icons/hashnode.svg";
-import EnvelopeIcon from "../../../../public/icons/envelope-regular.svg";
+import LinkedinIcon from "../../../../../public/icons/linkedin.svg";
+import GithubIcon from "../../../../../public/icons/github.svg";
+import HashnodeIcon from "../../../../../public/icons/hashnode.svg";
 import Image from "next/image";
 import Link from "next/link";
 import clsx from "clsx";

@@ -1,18 +1,18 @@
 import React from "react";
 import styles from "./contact.module.scss";
-import ContactImage from "../../../../public/images/contact-illustration.svg";
-import LinkedinIcon from "../../../../public/icons/linkedin.svg";
-import GithubIcon from "../../../../public/icons/github.svg";
-import HashnodeIcon from "../../../../public/icons/hashnode.svg";
-import EmailIcon from "../../../../public/icons/envelope-regular.svg";
+import ContactImage from "../../../../../public/images/contact-illustration.svg";
+import LinkedinIcon from "../../../../../public/icons/linkedin.svg";
+import GithubIcon from "../../../../../public/icons/github.svg";
+import HashnodeIcon from "../../../../../public/icons/hashnode.svg";
+import EmailIcon from "../../../../../public/icons/envelope-regular.svg";
 import Image from "next/image";
 import Link from "next/link";
 import clsx from "clsx";
+import { SectionLayout } from "../..";
 
 function Contact() {
   return (
-    <section className={styles.wrapper}>
-      <h1 className={styles.heading}>Contact</h1>
+    <SectionLayout heading={"Contacts"}>
       <div className={styles.row}>
         <div className={styles.contact}>
           <div className={styles.socialMedia}>
@@ -81,7 +81,7 @@ function Contact() {
           />
         </div>
       </div>
-    </section>
+    </SectionLayout>
   );
 }
 

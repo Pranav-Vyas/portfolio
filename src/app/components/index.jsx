@@ -1,12 +1,7 @@
-export {default as Overview} from "./Overview/Overview";
-export {default as Banner} from "./Banner/Banner";
-export {default as WorkExperience} from "./WorkExperience/WorkExperience";
-export {default as Education} from "./Education/Education";
+export {default as Banner} from "./Sections/Banner/Banner";
+export {Education, WorkExperience, Projects, Skills, Blogs, Contact, Copyright, Overview} from "./Sections";
 export {default as TimelineAlternate} from "./Timeline/TimelineAlternate";
 export {default as WorkTimeline} from "./Timeline/WorkTimeline";
 export {EducationCard, WorkCard, SkillCard, BlogCard} from "./Cards";
-export {default as Skills} from "./Skills/Skills";
-export {default as Projects} from "./Projects/Projects";
-export {default as Blogs} from "./Blogs/Blogs";
-export {default as Contact} from "./Contact/Contact";
-export {default as Copyright} from "./Copyright/Copyright";
+export {SectionHeading} from "./atoms";
+export {SectionLayout} from "./Templates";

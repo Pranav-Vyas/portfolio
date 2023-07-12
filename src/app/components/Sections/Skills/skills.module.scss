@@ -1,26 +1,6 @@
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 8rem 10rem;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.heading {
-  font-size: 4rem;
-  background-image: linear-gradient(to right, var(--color-yellow), var(--color-red));
-  color: transparent;
-  -webkit-background-clip: text;
-  font-weight: 500;
-  margin-bottom: 3rem;
-  text-transform: uppercase;
-}
-
 .grid {
   width: 100%;
   flex: 1;
-  margin-left: 4rem;
   display: flex;
   flex-wrap: wrap;
   height: 6rem;
