@@ -1,3 +1,5 @@
+@import "../../../styles/abstracts/mixins";
+
 .heading {
   font-size: 4rem;
   background-image: linear-gradient(to right, var(--color-yellow), var(--color-red));
@@ -6,4 +8,9 @@
   font-weight: 500;
   margin-bottom: 3rem;
   text-transform: uppercase;
+
+  @include respond(phone) {
+    font-size: 3rem;
+    font-weight: 600;
+  }
 }

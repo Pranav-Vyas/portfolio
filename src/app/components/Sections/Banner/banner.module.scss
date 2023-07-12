@@ -1,4 +1,5 @@
 @import "../../../styles/abstracts/mixins";
+
 .wrapper {
   height: 100vh;
   display: flex;
@@ -63,6 +64,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @include respond(phone) {
+    width: 70vw;
+  }
 }
 
 .headingPrimaryWhite {
@@ -94,6 +99,10 @@
   text-align: center;
   top: 0;
   width: 100%;
+  @include respond(phone) {
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
 }
 
 .greet1 {
@@ -132,6 +141,10 @@
   font-weight: 600;
   letter-spacing: .2rem;
   text-align: center;
+
+  @include respond(phone) {
+    font-size: 3.5rem;
+  }
 }
 
 @keyframes greet1Anime {

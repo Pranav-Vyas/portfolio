@@ -22,19 +22,27 @@
   padding: 0 6rem;
 }
 
-.headingPrimaryWhite {
+.heading {
   font-size: 4.5rem;
   color: var(--color-yellow);
   margin-bottom: 2rem;
   font-weight: 600;
+
+  @include respond(phone) {
+    font-size: 3rem;
+  }
 }
 
-.headingPrimaryYellow {
+.text {
   font-size: 2rem;
   line-height: 1.5;
   font-weight: 300;
   color: var(--color-white);
   text-align: center;
+
+  @include respond(phone) {
+    font-size: 1.6rem;
+  }
 }
 
 .button {
@@ -74,10 +82,12 @@
   @include respond(tab-port) {
     width: 35%;
     margin-bottom: 8rem;
+    border: .6rem solid var(--color-yellow);
   }
   @include respond(phone) {
-    width: 65%;
+    width: 60%;
     margin-bottom: 6rem;
+    border: .4rem solid var(--color-yellow);
   }
 }
 

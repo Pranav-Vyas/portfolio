@@ -15,8 +15,8 @@ function Overview() {
         </figure>
       </div>
       <div className={styles.textWrapper}>
-        <h1 className={styles.headingPrimaryWhite}>About Me</h1>
-        <h1 className={styles.headingPrimaryYellow}>
+        <h1 className={styles.heading}>About Me</h1>
+        <h1 className={styles.text}>
           I am Pranav Vyas, a software engineer with specialization in web
           development. I have done my bachelor&apos;s in Information Technology.
           In pursuit of my professional growth, I look forward to join an
