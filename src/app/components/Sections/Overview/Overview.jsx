@@ -9,7 +9,10 @@ function Overview() {
         <h1 className={styles.headingPrimaryWhite}>About Me</h1>
         <h1 className={styles.headingPrimaryYellow}>
           I am Pranav Vyas, a software engineer with specialization in web
-          development. I have done my bachelor&apos;s in Information Technology. In pursuit of my professional growth, I  look forward to join an organization that encourages growth, innovation and a positive work culture.
+          development. I have done my bachelor&apos;s in Information Technology.
+          In pursuit of my professional growth, I look forward to join an
+          organization that encourages growth, innovation and a positive work
+          culture.
         </h1>
         <Link
           className={styles.button}
@@ -27,7 +30,7 @@ function Overview() {
           />
         </figure>
       </div>
-      </section>
+    </section>
   );
 }
 

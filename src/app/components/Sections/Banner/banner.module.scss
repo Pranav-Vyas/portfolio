@@ -1,3 +1,4 @@
+@import "../../../styles/abstracts/mixins";
 .wrapper {
   height: 100vh;
   display: flex;
@@ -12,7 +13,7 @@
   background-attachment: fixed;
   height: 100%;
   filter: blur(3px) brightness(0.2);
-  clip-path: circle(102% at 50% -73%);
+  clip-path: circle(165vh at 50% -73vh);
 }
 
 .header {
