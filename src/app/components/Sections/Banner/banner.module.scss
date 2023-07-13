@@ -13,7 +13,7 @@
   background-position: center;
   background-attachment: fixed;
   height: 100%;
-  filter: blur(3px) brightness(0.2);
+  filter: blur(3px) brightness(0.35);
   clip-path: circle(165vh at 50% -73vh);
   
   @include respond(phone) {
