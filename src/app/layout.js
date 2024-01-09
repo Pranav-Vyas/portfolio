@@ -5,7 +5,13 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Pranav Vyas',
-  description: 'Pranav Vyas portfolio website',
+  description: 'Software Engineer with specialization in MERN stack',
+  keywords: ["Pranav", "Vyas", "Portfolio", "Developer", "MERN", "Software Engineer", "Python", "JavaScript", "Reactjs", "Node", "Accenture"],
+  openGraph: {
+    title: 'Pranav Vyas',
+    description: 'Software Engineer with specialization in MERN stack',
+    keywords: ["Pranav", "Vyas", "Portfolio", "Developer", "MERN", "Software Engineer", "Python", "JavaScript", "Reactjs", "Node", "Accenture"],
+  },
 }
 
 export default function RootLayout({ children }) {
