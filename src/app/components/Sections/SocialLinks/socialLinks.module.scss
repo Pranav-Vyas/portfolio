@@ -52,6 +52,14 @@
     }
   }
 
+  &__leetcode {
+    border: 2px solid var(--color-peach);
+    margin-bottom: 2rem;
+    &:hover {
+      box-shadow: 0 0.4rem 2rem var(--color-peach);
+    }
+  }
+
   &__hashnode {
     border: 2px solid var(--color-orange);
     &:hover {

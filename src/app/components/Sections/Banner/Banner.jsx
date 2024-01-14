@@ -3,6 +3,7 @@ import styles from "./banner.module.scss";
 import { Cedarville_Cursive } from "next/font/google";
 import LinkedinIcon from "../../../../../public/icons/linkedin.svg";
 import GithubIcon from "../../../../../public/icons/github.svg";
+import LeetcodeIcon from "../../../../../public/icons/leetcode.svg";
 import HashnodeIcon from "../../../../../public/icons/hashnode.svg";
 import Image from "next/image";
 import Link from "next/link";
@@ -36,6 +37,14 @@ function Banner() {
               src={GithubIcon}
               priority
               alt="Github Icon"
+            />
+          </Link>
+          <Link className={styles.link} href="https://leetcode.com/Pranav_Vyas/">
+            <Image
+              className={styles.icon}
+              src={LeetcodeIcon}
+              priority
+              alt="Leetcode Icon"
             />
           </Link>
           <Link className={styles.link} href="https://pranavvyas.hashnode.dev/">

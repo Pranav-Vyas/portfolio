@@ -1,8 +1,9 @@
 import React from "react";
-import styles from "./contact.module.scss";
+import styles from "./socialLinks.module.scss";
 import ContactImage from "../../../../../public/images/contact-illustration.svg";
 import LinkedinIcon from "../../../../../public/icons/linkedin.svg";
 import GithubIcon from "../../../../../public/icons/github.svg";
+import LeetcodeIcon from "../../../../../public/icons/leetcode.svg";
 import HashnodeIcon from "../../../../../public/icons/hashnode.svg";
 import EmailIcon from "../../../../../public/icons/envelope-regular.svg";
 import Image from "next/image";
@@ -10,9 +11,9 @@ import Link from "next/link";
 import clsx from "clsx";
 import { SectionLayout } from "../..";
 
-function Contact() {
+function SocialLinks() {
   return (
-    <SectionLayout heading={"Contacts"} classes={[styles.wrapper]}>
+    <SectionLayout heading={"Social Links"} classes={[styles.wrapper]}>
       <div className={styles.row}>
         <div className={styles.contact}>
           <div className={styles.socialMedia}>
@@ -49,6 +50,21 @@ function Contact() {
             <Link
               className={clsx(
                 styles.socialMedia__wrapper,
+                styles.socialMedia__leetcode
+              )}
+              href="https://leetcode.com/Pranav_Vyas/"
+            >
+              <Image
+                className={styles.socialMedia__icon}
+                src={LeetcodeIcon}
+                priority
+                alt="Leetcode Icon"
+              />
+              <span className={styles.socialMedia__name}>LeetCode</span>
+            </Link>
+            <Link
+              className={clsx(
+                styles.socialMedia__wrapper,
                 styles.socialMedia__hashnode
               )}
               href="https://pranavvyas.hashnode.dev/"
@@ -69,7 +85,7 @@ function Contact() {
               priority
               alt="Email Icon"
             />
-            <span className={styles.email__text}>pranavvyas0306@gmail.com</span>
+            <span className={styles.email__text}>pranavvyas2016@gmail.com</span>
           </div>
         </div>
         <div className={styles.illustration}>
@@ -85,4 +101,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default SocialLinks;
